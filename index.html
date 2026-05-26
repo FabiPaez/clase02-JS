@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 JavaScript</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Actividades Clase 2 - JavaScript</h1>
+
+    <!-- PUNTO A -->
+    <section class="seccion puntoA">
+
+        <h2>PUNTO A - Semáforo con Switch</h2>
+
+        <form id="formSemaforo">
+
+            <label>Ingrese un color:</label>
+
+            <input type="text" id="colorInput" placeholder="rojo, amarillo o verde">
+
+            <button type="submit">
+                Encender
+            </button>
+
+        </form>
+
+        <h3 id="mensaje">Semáforo apagado</h3>
+
+        <div class="semaforo">
+
+            <div id="rojo" class="luz rojo"></div>
+
+            <div id="amarillo" class="luz amarillo"></div>
+
+            <div id="verde" class="luz verde"></div>
+
+        </div>
+
+    </section>
+
+    <!-- PUNTO B -->
+    <section class="seccion puntoB">
+        <h2>PUNTO B - Calculadora con Descuento</h2>
+
+        <h4>El precio del Producto es $1000</h4>
+
+        <form id="formCalculadora">
+
+            <label>Ingrese la cantidad de Productos</label>
+            <input type="number" id="cantidadProductos" placeholder="cantidad de Productos">
+
+            <label for="cliente">¿Usted es Socio?</label>
+            <select name="cliente" id="cliente">
+                <option value="true">SI</option>
+                <option value="false">NO</option>
+            </select>
+
+            <button type="submit">
+                Comprar
+            </button>
+
+            <h4>El precio Total es: </h4>
+            <h4 id="mensajeB"> </h4>
+        </form>
+
+
+    </section>
+
+    <!-- PUNTO C -->
+    <section class="seccion puntoC">
+        <h2>PUNTO C - Clasificadora de Temperatura</h2>
+
+        <form id="formTemperatura">
+            <label>Ingrese la Temperatura: </label>
+
+            <input type="text" id="temperatura" placeholder="Temperatura">
+
+            <button type="submit">
+                Enviar
+            </button>
+
+            <h4>La Clasificacion de la temperatura es: </h4>
+            <h4 id="mensajeC"> </h4>
+
+        </form>
+
+    </section>
+
+    <!-- PUNTO D -->
+    <section class="seccion puntoD">
+        <h2>PUNTO D - Nombre con valor por defecto</h2>
+
+        <form id="formValor">
+            <label>Ingrese su nombre: (Si envia "null" el Sistema lo ingresara como invitado)</label>
+
+            <input type="text" id="nombre" placeholder="Nombre" value=null>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+            <h4>El Nombre es: </h4>
+            <h4 id="mensajeD"> </h4>
+        </form>
+    </section>
+
+    <!-- PUNTO E -->
+    <section class="seccion puntoE">
+        <h2>PUNTO E - Validador de formulario
+        </h2>
+
+        <form id="formValida">
+
+            <label>Ingrese usuario y edad</label>
+
+            <input type="text" id="usuario" placeholder="Usuario" value=""> 
+
+            <input type="number" id="edad" placeholder="Edad">
+
+            <button type="submit">
+                Enviar
+            </button>
+            
+            <h4 id="mensajeE"> </h4>
+
+        </form>
+
+    </section>
+
+    <!-- PUNTO F -->
+    <section class="seccion puntoF">
+        <h2>PUNTO F Desafio: adivina el numero
+            El sistema tiene un numero secreto = 42. Declara un intento. Si es igual, muestra "Adivinaste!". Si es
+            menor, "Muy bajo". Si es mayor, "Muy alto".
+
+        </h2>
+
+        <form id="formAdivina">
+
+            <label>Ingrese numero entre 0 y 100</label>           
+
+            <input type="number" id="number" placeholder="Número">
+
+            <button type="submit">
+                Enviar
+            </button>
+            
+            <h4 id="mensajeF"> </h4>
+
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

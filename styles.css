@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.seccion {
+    min-height: 300px;
+    padding: 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* COLORES DE CADA SECCIÓN */
+
+.puntoA {
+    background-color: #cceeff;
+}
+
+.puntoB {
+    background-color: #ccffcc;
+}
+
+.puntoC {
+    background-color: #fff5b7;
+}
+
+.puntoD {
+    background-color: #e5ccff;
+}
+
+.puntoE {
+    background-color: #dddddd;
+}
+
+.puntoF {
+    background-color: #ffd8b1;
+}
+
+/* SEMÁFORO */
+
+.semaforo {
+    width: 120px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.luz {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px auto;
+    opacity: 0.3;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: limegreen;
+}
+
+.activo {
+    opacity: 1;
+    box-shadow: 0 0 20px white;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
